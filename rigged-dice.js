@@ -4,7 +4,7 @@ const prompt = require
 let riggedRoll = prompt("Enter Rigged Number: ")
 let diceRoll = Math.ceil(Math.random() * 6)
 
-let magicalNumber = 1
+
 if(diceRoll === riggedRoll){
     console.log(diceRoll)
 } else if (diceRoll % 2){
